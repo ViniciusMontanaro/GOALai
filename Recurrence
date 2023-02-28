@@ -1,0 +1,44 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     recorg-weka.filters.unsupervised.attribute.Remove-R41-51,54-59,61-weka.filters.unsupervised.attribute.Remove-R1-4-weka.filters.unsupervised.attribute.Remove-R4-weka.filters.unsupervised.attribute.Remove-R13-weka.filters.unsupervised.attribute.Remove-R38-weka.filters.unsupervised.attribute.Remove-R35-36-weka.filters.unsupervised.attribute.Remove-R18-weka.filters.unsupervised.attribute.Remove-R16-weka.filters.unsupervised.attribute.Remove-R28-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-R16-weka.filters.unsupervised.attribute.Remove-R27-weka.filters.supervised.instance.SpreadSubsample-M1.0-X0.0-S1
+Instances:    1208
+Attributes:   31
+              Ethnicity
+              Income_classification
+              Season_event
+              Age
+              Gender
+              Prev_tia_stroke
+              Infection
+              Diabetes
+              Hypertension
+              Dyslipidaemia
+              Peripheral_vascdisease
+              Smoking_Current_Ever
+              FamHx_stroke
+              Obesity
+              Migraine
+              HRT_OAC
+              Drug_use
+              Alcohol
+              Isch_heartdisease
+              PFO
+              AF
+              Statin_baseline
+              antigoaculans_baseline
+              Antiplatelets_baseline
+              Antihypertensives_baseline
+              TOAST
+              Baseline_NIHSS
+              Disch_Modified_rankingscale
+              RF_Score4
+              FUP_duration_months
+              RecorG
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
