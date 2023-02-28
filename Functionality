@@ -1,0 +1,47 @@
+=== Run information ===
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Instances:    9366
+Attributes:   36
+              Ethnicity
+              Income_classification
+              Season_event
+              Age
+              Gender
+              Infection
+              Diabetes
+              Hypertension
+              Dyslipidaemia
+              Peripheral_vascdisease
+              Cur_smoker
+              Smoking_Current_Ever
+              FamHx_stroke
+              Obesity
+              Pregnancy
+              Migraine
+              Stroke_postpartum_1y
+              HRT_OAC
+              Drug_use
+              Alcohol
+              Isch_heartdisease
+              PFO
+              AF
+              Statin_baseline
+              antigoaculans_baseline
+              Antiplatelets_baseline
+              Antihypertensives_baseline
+              NOAC_baseline
+              TOAST
+              premorbid_MRS
+              Baseline_NIHSS
+              Disch_Modified_rankingscale
+              RF_Score4
+              RecorG
+              FUP_duration_months
+              MRS_FUP_Comb_Cat
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
