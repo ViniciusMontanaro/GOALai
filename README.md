@@ -1,2 +1,4 @@
 # GOALai
 A ML algorithm for prediction of stroke recurrence and functional satus of young patients (18-50 years) after ischemic stroke
+Ischemic stroke in  young adults is of great social and economic burden. About 2 million individuals in the 18-50 age group suffer from a stroke annually. Rapid identification of risk factors associated with recurrent events and outcome of stroke, is key in optimizing personalized treatment/secondary prevention and preventing recurrence. For this, new techniques of machine learning can potentially help predict the outcomes of recurrence and functional status after a stroke.
+Data were available for 7937 patients  for functional outcome  and 9366 for stroke recurrence, from 29 countries covering all continents machine learning models were similar to logistic regression, considering the sensitivity, specificity, accuracy, and area under ROC curve to predict recurrence and functional outcome in young patients 3 months after the event
